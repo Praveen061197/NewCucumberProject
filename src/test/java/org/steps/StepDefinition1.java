@@ -33,6 +33,7 @@ public class StepDefinition1 extends BaseClass{
 	@Then("user will redirect to invalid credential page")
 	public void user_will_redirect_to_invalid_credential_page() {
 	    System.out.println("Invalid credential page");
+	    System.out.println("This is the new Line");
 	}
 
 }
