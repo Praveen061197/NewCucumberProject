@@ -22,7 +22,6 @@ public class StepDefinition2 extends BaseClass{
 	@Then("user will navigate to invalid credential page")
 	public void user_will_navigate_to_invalid_credential_page() {
 		System.out.println("Invalid credential page");
-		Assert.assertTrue(false);
 	}
 
 }
